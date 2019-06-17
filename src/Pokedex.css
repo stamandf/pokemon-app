@@ -1,0 +1,40 @@
+.Pokedex {
+    display: grid;
+    grid: repeat(1, 50%) / auto-flow 250px;
+    grid-row-gap: 4rem;
+    grid-column-gap: 5rem; 
+    margin-left: 5rem;
+    
+}
+
+.Pokedex-cards {
+    /* background-color: #fff; */
+    background-color: #eceff1;
+    justify-items: center;
+    border-radius: 3px;
+    /* box-shadow: 7px 10px 12px -5px rgba(20, 20, 20, 0.56); */
+    /* box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56); */
+}
+
+.Experience {
+    margin-top: 0;
+    margin-left:33%;
+    color: rgb(182, 178, 178);
+    font-size: 165%;
+
+}
+
+.Winner {
+    animation-duration: 10s;
+    margin-left:35%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: green;
+}
+
+.Loser {
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left:35%;
+    color: red;
+}

@@ -1,0 +1,25 @@
+.pokeGame-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    border-radius: 50%;
+    border: thick solid #fff;
+    /* border: thick inset #fff; */
+    background-color: rgb(233, 82, 82);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    width: 5rem;
+    height: 5rem;
+    outline: none;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+    transition: 0.3s;
+}
+.pokeGame-button:hover {
+    background-color: rgb(155, 3, 3);
+}
+.pokeGame-button:active {
+    background-color: rgb(155, 3, 3);
+    transform: translate(3px -5px);
+
+}
